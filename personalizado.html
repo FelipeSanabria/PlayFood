@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlayFood - Platos Personalizados</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="back full-height">
+		<div class="container">
+			<div class="row center middle">
+				<div class="col-2 end return">
+				<a href="index.html">
+					<img src="img/logo-pizza.png">
+				</a>
+			</div>
+
+			<div class="col-10 start">
+				<h1>Platos Personalizados</h1>
+			</div>
+			</div>
+		</div>
+
+		<section class="container">
+			<div class="row middle center">	
+				<div class="col-3">
+					<figure class="tarjeta tarjeta-ind">
+						<img src="img/comidas/carne.jpg">
+						<figcaption>
+							Filet Mignon<br>Calorias: 500
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-2">
+					<form class="opcion">
+						<label for="cantidad">Cantidad</label>
+						<select id="cantidad" name="cantidad">
+							<option value="0">200 GR</option>
+							<option value="1">350 GR</option>
+							<option value="2" selected>500 GR</option>
+						</select>
+
+						<label for="coccion">Cocción</label>
+						<select id="coccion" name="coccion">
+							<option value="0">Rojo Inglés</option>
+							<option value="1">Medio</option>
+							<option value="2" selected>Tres Cuartos</option>
+							<option value="3">Bien Cocido</option>
+						</select>
+					</form>
+				</div>
+
+				<div class="col-2">
+					<form class="opcion">
+						<label for="adicional">Adicional 1</label>
+						<select id="adicional" name="adicional">
+							<option value="0">Ninguno</option>
+							<option value="1" selected>Bacon</option>
+							<option value="2">Champiñones</option>
+						</select>
+
+						<label for="adicional">Adicional 2</label>
+						<select id="adicional" name="adicional">
+							<option value="0">Ninguno</option>
+							<option value="1">Bacon</option>
+							<option value="2" selected>Champiñones</option>
+						</select>
+					</form>
+				</div>
+
+				<div class="col-2">
+					<form class="opcion">
+						<label for="acompañamiento">Acompañamiento</label>
+						<select id="acompañamiento" name="acompañamiento">
+							<option value="0">Ninguno</option>
+							<option value="1">Pure de Papas</option>
+							<option value="2" selected>Verduras Salteadas</option>
+						</select>
+
+						<label for="bebida">Bebida</label>
+						<select id="bebida" name="bebida">
+							<option value="0">Ninguno</option>
+							<option value="1" selected>Vino</option>
+							<option value="2">Jugo Natural</option>
+						</select>
+					</form>
+				</div>
+
+				<div class="col-1">
+					<a href="#" onclick="alert('Tu pedido estará listo en 15 minutos')">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 16 16">
+							<path d="M5.016 16c-1.066-2.219-0.498-3.49 0.321-4.688 0.897-1.312 1.129-2.61 1.129-2.61s0.706 0.917 0.423 2.352c1.246-1.387 1.482-3.598 1.293-4.445 2.817 1.969 4.021 6.232 2.399 9.392 8.631-4.883 2.147-12.19 1.018-13.013 0.376 0.823 0.448 2.216-0.313 2.893-1.287-4.879-4.468-5.879-4.468-5.879 0.376 2.516-1.364 5.268-3.042 7.324-0.059-1.003-0.122-1.696-0.649-2.656-0.118 1.823-1.511 3.309-1.889 5.135-0.511 2.473 0.383 4.284 3.777 6.197z"></path>
+						</svg>
+					</a>
+					
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
